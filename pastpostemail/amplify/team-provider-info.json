@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pastpostemail-dev-142207-authRole",
+      "UnauthRoleArn": "arn:aws:iam::868222247046:role/amplify-pastpostemail-dev-142207-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::868222247046:role/amplify-pastpostemail-dev-142207-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pastpostemail-dev-142207-deployment",
+      "UnauthRoleName": "amplify-pastpostemail-dev-142207-unauthRole",
+      "StackName": "amplify-pastpostemail-dev-142207",
+      "StackId": "arn:aws:cloudformation:us-east-1:868222247046:stack/amplify-pastpostemail-dev-142207/b25cb780-352b-11ed-bd1c-0afb34e334ab",
+      "AmplifyAppId": "d1m3b1g55bguxr"
+    },
+    "categories": {
+      "auth": {
+        "pastpostemaile7281acc": {}
+      }
+    }
+  }
+}
