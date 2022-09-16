@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pastpostemail-dev-142207-authRole",
+      "UnauthRoleArn": "arn:aws:iam::868222247046:role/amplify-pastpostemail-dev-142207-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::868222247046:role/amplify-pastpostemail-dev-142207-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pastpostemail-dev-142207-deployment",
+      "UnauthRoleName": "amplify-pastpostemail-dev-142207-unauthRole",
+      "StackName": "amplify-pastpostemail-dev-142207",
+      "StackId": "arn:aws:cloudformation:us-east-1:868222247046:stack/amplify-pastpostemail-dev-142207/b25cb780-352b-11ed-bd1c-0afb34e334ab",
+      "AmplifyAppId": "d1m3b1g55bguxr"
+    }
+  },
+  "auth": {
+    "pastpostemaile7281acc": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-pastpostemail-dev-142207-deployment/amplify-cfn-templates/auth/pastpostemaile7281acc-cloudformation-template.json",
+        "logicalId": "authpastpostemaile7281acc"
+      },
+      "lastPushTimeStamp": "2022-09-15T19:58:34.830Z",
+      "output": {
+        "UserPoolId": "us-east-1_GSFOC4or0",
+        "AppClientIDWeb": "1guv5fduk8isjuremnfb0e98o9",
+        "AppClientID": "kkrtuus2oqt5o6oqoqajdieu4",
+        "IdentityPoolId": "us-east-1:06781ebc-480c-496b-9cb0-95eef40099e1",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:868222247046:userpool/us-east-1_GSFOC4or0",
+        "IdentityPoolName": "pastpostemaile7281acc_identitypool_e7281acc__dev",
+        "UserPoolName": "pastpostemaile7281acc_userpool_e7281acc"
+      },
+      "lastPushDirHash": "QTAip3x+Yiiuy6s/z50chYnmEBI="
+    }
+  }
+}
